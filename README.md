@@ -31,6 +31,14 @@ Point Clouds, Self-Supervision
 
 ### - Step 1:
 
+Install pytorch 1.12.0 and cuda 11.6 (recommended):
+```
+pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
+```
+*We have also tested our code with pytorch 1.11.0 and cuda 11.3*
+
+### - Step 2:
+
 Use either anaconda or pip to install the requirements 
 
  - Anaconda: 
@@ -40,17 +48,17 @@ Use either anaconda or pip to install the requirements
 
  - pip:
 
-       pip install requirements.txt
+       pip install -r requirements.txt
 
 
-### - Step 2:
+### - Step 3:
 
 Manual installation of the following dependancies:
 
 1. Clone and install the chamfer distance from PointMAE original repo.
 ```
-# Go to the extensions subfolder
-cd extensions
+# create an extensions subfolder and cd to that folder
+mkdir extensions && cd extensions
 # initialize a github repository
 git init
 # add PointMAE repo as remote
@@ -61,6 +69,8 @@ git config core.sparseCheckout true
 echo "extensions/chamfer_dist" >> .git/info/sparse-checkout
 # pull from the remote
 git pull origin main
+# restructure the folders to meet the project requirements
+mv ./extensions/chamfer_dist ./ && rmdir extensions
 
 # Install the module
 cd chamfer_dist
