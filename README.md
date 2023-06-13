@@ -93,4 +93,12 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 ## 2. Datasets
 In this work we use ModelNen40, ScanObjectNN, ShapeNet, and CC3D. See DATASET.md for more details on how to download and set the datasets. 
 
+*Do not forget to add the paths of the datasets in the configuration files.*
 
+## 3. Examples 
+
+ - Pretrain a transformer model on ShapeNet and CC3D - using the *cfgs/pretrain/ShapenetCC3DPretrain.yaml* configuration file. 
+ ```
+python pretrain.py --cfg_name "pretrain/ShapenetCC3DPretrain"
+ ```
+ - Finetune a transformer model ... 
