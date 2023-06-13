@@ -20,11 +20,11 @@ classification task among transformer models.
 
 *Index Terms* — Deep Learning, Transformers, Explainability,
 Point Clouds, Self-Supervision
-
+<br/><br/>
 <div align="center">
     <img src = "./figures/pipelines.png", width = 666, aligh=center />
 </div>
-
+<br/><br/>
 *The code will be made publically available after publication.*
 
 ## 1. Requirements
