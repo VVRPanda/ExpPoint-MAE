@@ -77,8 +77,7 @@ cd chamfer_dist
 python setup.py install --user
 
 # Return to main repo 
-cd ..
-cd ..
+cd .. && cd ..
 ```
 
 2. Install PointNet++ utils
