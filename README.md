@@ -26,7 +26,7 @@ Point Clouds, Self-Supervision
 </div>
 <br/><br/>
 
-*The code will be made publically available after publication*
+*The code will be made publically available after publication.*
 
 ## 1. Requirements
 
