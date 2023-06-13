@@ -25,7 +25,8 @@ Point Clouds, Self-Supervision
     <img src = "./figures/pipelines.png", width = 666, aligh=center />
 </div>
 <br/><br/>
-*The code will be made publically available after publication.*
+
+*The code will be made publically available after publication*
 
 ## 1. Requirements
 
