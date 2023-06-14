@@ -102,4 +102,10 @@ In this work we use ModelNen40, ScanObjectNN, ShapeNet, and CC3D. See DATASET.md
  ```
 python pretrain.py --cfg_name "pretrain/ShapenetCC3DPretrain"
  ```
- - Finetune a transformer model ... 
+ - Finetune a transformer model on ModelNet40 using the checkpoint generated from the previous pretrain - using the *cfgs/finetune/ModelNetExample.yaml* configuration file. 
+ ```
+ python finetune.py --cfg_name "finetune/ModelNetExample"
+ ```
+
+For further details on how to create a custom configuration file see the CONFIG.md.
+
