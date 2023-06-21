@@ -91,10 +91,10 @@ task: finetune
 
 wandb:
   project: CLEAN_EXPERIMENTS_MODELNET40
-  name: 2kpoints_hope_for_best_64_groups_att3_unf240
+  name: ModelNetExample
 
 load_checkpoint : shapenet_cc3d_pretrain_bs128e300
-save_checkpoint : 2kpoints_hope_for_best_64_groups_att3_unf240
+save_checkpoint : ModelNetExample
 
 network:
   group_devider: 
