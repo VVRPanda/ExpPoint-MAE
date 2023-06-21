@@ -40,7 +40,7 @@ pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --e
 
 ### - Step 2:
 
-Install requirements 
+Install other requirements using requierements.txt
 
  - pip:
 
