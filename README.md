@@ -1,5 +1,5 @@
 # Explainable Transformer in Point Clouds
-## A deep dive into explainable self-supervised transformers for point clouds [arXiv](https://arxiv.org/abs/2306.10798)
+## A deep dive into explainable self-supervised transformers for point clouds, [arXiv](https://arxiv.org/abs/2306.10798)
 
 *Abstract* — In this paper we delve into the properties of trans-
 formers, attained through self-supervision, in the point cloud
