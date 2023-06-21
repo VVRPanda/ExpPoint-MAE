@@ -21,4 +21,17 @@ You can manually download the dataset using the this [link](https://shapenet.cs.
 After the download is completed extract the downloaded *.zip* file and place it in the folder specified by the modelnet cfg.
 The dataset *\*.h5* files should be located in the ```data_path_in_cfg/modelnet40_ply_hdf5_2048``` directory. 
 
+## ScanObjectNN
+
+You can download the data from the [official website](https://hkust-vgd.github.io/scanobjectnn/).
+
+## ShapeNet
+In order to download the ShapeNet dataset please follow the instructions provided by [Point-BERT](https://github.com/lulutang0608/Point-BERT.git).
+
+
+## CC3D
+In order to use the CC3D dataset you have to get permission from the dataset provider. Please follow the steps in their [official website](https://cvi2.uni.lu/cc3d-dataset/). As the data are provided in mesh format, we use **farthest point sampling** to sample 8192 points for each sample. 
+When you get the perimission to access the data, feel free to contact us to provide you with the preprocessed version of the data. 
+
+*Code on data preprocessing will be made available soon.*
 
