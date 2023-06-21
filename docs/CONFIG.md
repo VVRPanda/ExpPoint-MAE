@@ -86,6 +86,7 @@ Here we focus on the differences of these files.
 
 
 ```
+dataset: modelnet
 task: finetune
 
 wandb:
