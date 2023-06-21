@@ -1,3 +1,4 @@
+# Configuration files
 In this file we describe the structure of a configuration file. 
 
 ## Dataset configuration files
