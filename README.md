@@ -28,7 +28,20 @@ Point Clouds, Self-Supervision
 
 *The code will be made publically available after publication.*
 
-## 1. Requirements
+## 1. Results
+In this section we provide a summary of the results produced through our unfreezing strategy. *The configuration files and the checkpoints for these models will soon become available*.
+
+### Classification Task
+
+| Dataset              | Acc. - No Voting |
+| :---                 | :---:            |
+| ScanObjectNN objbg   | 90.02%           |
+| ScanObjectNN objonly | 90.88%           |
+| ScanObjectNN hardest | 85.25%           |
+| ModelNet40 (1k)      | 93.7%            |
+| ModelNet40 (2k)      | 94.0%            |
+
+## 2. Requirements
 
 ### - Step 1:
 
@@ -86,12 +99,12 @@ pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointn
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
 ```
 
-## 2. Datasets
+## 3. Datasets
 In this work we use ModelNen40, ScanObjectNN, ShapeNet, and CC3D. See DATASET.md, indide the *docs* folder, for more details on how to download and set the datasets. 
 
 *Do not forget to add the paths of the datasets in the configuration files.*
 
-## 3. Examples 
+## 4. Examples 
 
  - Pretrain a transformer model on ShapeNet and CC3D - using the *cfgs/pretrain/ShapenetCC3DPretrain.yaml* configuration file. 
  ```
