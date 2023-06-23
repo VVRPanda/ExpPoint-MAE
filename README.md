@@ -35,11 +35,14 @@ In this section we provide a summary of the results produced through our unfreez
 
 | Dataset              | Acc. - No Voting |
 | :---                 | :---:            |
-| ScanObjectNN objbg   | 90.02%           |
-| ScanObjectNN objonly | 90.88%           |
-| ScanObjectNN hardest | 85.25%           |
-| ModelNet40 (1k)      | 93.7%            |
-| ModelNet40 (2k)      | 94.0%            |
+| ScanObjectNN objbg   | 90.02            |
+| ScanObjectNN objonly | 90.88            |
+| ScanObjectNN hardest | 85.25            |
+| ModelNet40 (1k)      | 93.7             |
+| ModelNet40 (2k)      | 94.0             |
+|                      | **Acc. - Voting**|
+| ModelNet40 (1k)      | 94.2 
+
 
 ## 2. Requirements
 
