@@ -1,0 +1,1 @@
+In this folder you will store the pretrained checkpoints

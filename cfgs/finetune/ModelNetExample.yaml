@@ -1,0 +1,32 @@
+dataset: modelnet
+task: finetune
+
+wandb:
+  project: FINETUNING POINT_MAE
+  name: ModelNetExample
+
+load_checkpoint : ShapenetCC3Dpretrain300
+save_checkpoint : ModelNetExample
+
+network:
+  group_devider: 
+    group_size: 32
+    num_group: 64
+
+  MAE_encoder: 
+    embed_dim: 384
+    depth: 12
+    num_heads: 6
+    drop_path_rate: 0.1
+    feature_embed: true
+  
+  # the feature dimension for the cls_head depends on the 
+  # number of pooled feature vectors
+  use_cls_token: true
+  use_max_pooling: false
+  use_mean_pooling: false
+
+training: 
+  num_epochs: 300
+  freeze_backbone: false
+  save_best: true

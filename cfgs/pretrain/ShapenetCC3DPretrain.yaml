@@ -1,0 +1,38 @@
+dataset: [cc3d, shapenet]
+task: pretrain
+
+wandb:
+  project: Point-MAE
+  name: ShapenetCC3Dpretrain300
+
+load_checkpoint: false
+save_checkpoint: ShapenetCC3Dpretrain300
+
+network:
+  group_devider: 
+    group_size: 32
+    num_group: 64
+  
+  mask_generator:
+    mask_ratio: 0.6
+    mask_type: rand
+
+  MAE_encoder: 
+    embed_dim: 384
+    depth: 12
+    num_heads: 6
+    drop_path_rate: 0.1
+    feature_embed: true
+
+  MAE_decoder:
+    embed_dim: 384 
+    depth: 4 
+    num_heads: 6
+    drop_path_rate: 0.1
+    feature_embed: False
+
+training: 
+  num_epochs: 300
+  batch_size: 128
+  monitor_lr: true
+ 
