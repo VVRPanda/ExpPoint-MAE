@@ -26,7 +26,8 @@ Point Clouds, Self-Supervision
 </div>
 <br/><br/>
 
-*The code will be made publically available after publication.*
+*Most of the code to reimplement our method is available, we will soon release the code to reimplenet the visualizations presented in our paper and 
+the checkpoints used in our research.*
 
 ## 1. Results
 In this section we provide a summary of the results produced through our unfreezing strategy. *The configuration files and the checkpoints for these models will soon become available*.
@@ -119,4 +120,9 @@ python pretrain.py --cfg_name "pretrain/ShapenetCC3DPretrain"
  ```
 
 For further details on how to create a custom configuration file see the CONFIG.md inside the *docs* folder.
+
+## Acknowledgements
+Our code depends on [Point-MAE](https://github.com/Pang-Yatian/Point-MAE.git) repo. 
+
+
 
