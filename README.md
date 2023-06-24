@@ -104,7 +104,7 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 ```
 
 ## 3. Datasets
-In this work we use ModelNen40, ScanObjectNN, ShapeNet, and CC3D. See DATASET.md, indide the *docs* folder, for more details on how to download and set the datasets. 
+In this work we use ModelNen40, ScanObjectNN, ShapeNet, and CC3D. See [DATASET.md](https://github.com/VVRPanda/ExpPoint-MAE/blob/main/docs/DATASET.md) for more details on how to download and set the datasets. 
 
 *Do not forget to add the paths of the datasets in the configuration files.*
 
@@ -119,7 +119,7 @@ python pretrain.py --cfg_name "pretrain/ShapenetCC3DPretrain"
  python finetune.py --cfg_name "finetune/ModelNetExample"
  ```
 
-For further details on how to create a custom configuration file see the CONFIG.md inside the *docs* folder.
+For further details on how to create a custom configuration file see the [CONFIG.md](https://github.com/VVRPanda/ExpPoint-MAE/blob/main/docs/CONFIG.md).
 
 ## Acknowledgements
 Our code depends on [Point-MAE](https://github.com/Pang-Yatian/Point-MAE.git) repo. 
