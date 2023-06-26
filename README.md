@@ -126,7 +126,7 @@ Our code depends on [Point-MAE](https://github.com/Pang-Yatian/Point-MAE.git) re
 
 ## Citation
 ```
-@misc{romanelis2023exppointmae,
+@misc{exppointmae2023,
       title={ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers}, 
       author={Ioannis Romanelis and Vlassis Fotis and Konstantinos Moustakas and Adrian Munteanu},
       year={2023},
