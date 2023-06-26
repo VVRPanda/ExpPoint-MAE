@@ -124,5 +124,15 @@ For further details on how to create a custom configuration file see the [CONFIG
 ## Acknowledgements
 Our code depends on [Point-MAE](https://github.com/Pang-Yatian/Point-MAE.git) repo. 
 
-
+## Citation
+```
+@misc{romanelis2023exppointmae,
+      title={ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers}, 
+      author={Ioannis Romanelis and Vlassis Fotis and Konstantinos Moustakas and Adrian Munteanu},
+      year={2023},
+      eprint={2306.10798},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
