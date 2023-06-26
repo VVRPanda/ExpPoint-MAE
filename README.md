@@ -122,7 +122,8 @@ python pretrain.py --cfg_name "pretrain/ShapenetCC3DPretrain"
 For further details on how to create a custom configuration file see the [CONFIG.md](https://github.com/VVRPanda/ExpPoint-MAE/blob/main/docs/CONFIG.md).
 
 ## Acknowledgements
-Our code depends on [Point-MAE](https://github.com/Pang-Yatian/Point-MAE.git) repo. 
+Our code starts with a reimplementation of [Point-MAE](https://github.com/Pang-Yatian/Point-MAE.git) repo. 
+We utilize [pytorch lightning](https://www.pytorchlightning.ai/index.html) in favor of clarity and reproduciblity.
 
 ## Citation
 ```
