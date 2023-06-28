@@ -1,5 +1,6 @@
-# Explainable Transformer in Point Clouds
-## ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers, [arXiv](https://arxiv.org/abs/2306.10798)
+# ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers,  [arXiv](https://arxiv.org/abs/2306.10798)
+
+
 
 *Abstract* — In this paper we delve into the properties of trans-
 formers, attained through self-supervision, in the point cloud
