@@ -1,5 +1,0 @@
-__pycache__/
-extensions/
-FINETUNING POINT_MAE/
-wandb/
-*.pt
