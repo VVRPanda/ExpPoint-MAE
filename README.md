@@ -30,6 +30,9 @@ Point Clouds, Self-Supervision
 *Most of the code to reimplement our method is available, we will soon release the code to reimplenet the visualizations presented in our paper and 
 the checkpoints used in our research.*
 
+## News:
+ - 9/4/2024: Our paper has been accepted for publication in IEEEAccess.
+
 ## 1. Results
 In this section we provide a summary of the results produced through our unfreezing strategy. *The configuration files and the checkpoints for these models will soon become available*.
 
