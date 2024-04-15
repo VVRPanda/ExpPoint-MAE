@@ -32,6 +32,7 @@ the checkpoints used in our research.*
 
 ## News:
  - 9/4/2024: Our paper has been accepted for publication in IEEEAccess.
+ - 12/4/2024: Our paper had been published in IEEEAccess. DOI: 10.1109/ACCESS.2024.3388155
 
 ## 1. Results
 In this section we provide a summary of the results produced through our unfreezing strategy. *The configuration files and the checkpoints for these models will soon become available*.
