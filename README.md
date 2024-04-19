@@ -1,4 +1,4 @@
-# ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers,  [arXiv](https://arxiv.org/abs/2306.10798) [IEEE Access](https://ieeexplore.ieee.org/document/10497601)
+# ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers,  [arXiv](https://arxiv.org/abs/2306.10798), [IEEE Access](https://ieeexplore.ieee.org/document/10497601)
 
 
 
