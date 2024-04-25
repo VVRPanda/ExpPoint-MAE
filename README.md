@@ -132,13 +132,15 @@ We utilize [pytorch lightning](https://www.pytorchlightning.ai/index.html) in fa
 
 ## Citation
 ```
-@misc{exppointmae2023,
-      title={ExpPoint-MAE: Better interpretability and performance for self-supervised point cloud transformers}, 
-      author={Ioannis Romanelis and Vlassis Fotis and Konstantinos Moustakas and Adrian Munteanu},
-      year={2023},
-      eprint={2306.10798},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@ARTICLE{10497601,
+  author={Romanelis, Ioannis and Fotis, Vlassis and Moustakas, Konstantinos and Munteanu, Adrian},
+  journal={IEEE Access}, 
+  title={ExpPoint-MAE: Better Interpretability and Performance for Self-Supervised Point Cloud Transformers}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={53565-53578},
+  keywords={Transformers;Solid modeling;Task analysis;Point cloud compression;Feature extraction;Training;Deep learning;Self-supervised learning;Deep learning;explainability;point clouds;self-supervision;transformers},
+  doi={10.1109/ACCESS.2024.3388155}}
 ```
 
